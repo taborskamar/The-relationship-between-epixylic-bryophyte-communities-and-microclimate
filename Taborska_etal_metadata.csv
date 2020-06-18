@@ -1,0 +1,68 @@
+VARIABLE;DESCRIPTION
+Tabroska_etal_microclimate_data.csv:;
+LOG;"log ID; number (used as factor)"
+LOGGER;"logger ID; number (used as factor)"
+SEASON;"measurement campaign; nominal with three categories (SPRING; SUMMER, AUTUMN)"
+DATETIME;datetime as yyyy.mm.dd HH:MM
+DATE;date as yyyy.mm.dd
+TIME;time as HH:MM
+DAY;"number of days within a measurement campaign; integer"
+DN;"daytime or night (categorical; 6:00?""daytime""?18:00)"
+T;"temperature (raw value; °C)"
+RH;"relative humidity (raw value; %)"
+RH2;"corrected relative humidity (raw value; [0-100]%)"
+VPD;"vapor pressure deficit (raw value; kPa)"
+WP;"water potential (raw value; kPa)"
+dT;"temperature (relative value; °C)"
+dRH;"corrected relative humidity (relative value; [0-100]%)"
+dVPD;"vapor pressure deficit (relative value; kPa)"
+dWP;"water potential (relative value; kPa)"
+Tabroska_etal_canopyopenness_data.csv:;
+LOG;"log ID; number (used as factor)"
+SEASON;"measurement campaign; nominal with two categories (LAFLESS, LEAF-ON)"
+CO;canopy openness ([0-100]%)
+CO2;canopy openness ([0-1])
+Tabroska_etal_species_data.csv:;
+no_sample;field number of the sampled log
+AtriUndu;Atrichum undulatum (Hedw.) P. Beauv.
+BlepTric;Blepharostoma trichophyllum (L.) Dumort.
+BracRefl;Sciuro-hypnum reflexum (Starke) Ignatov & Huttunen
+BracRuta;Brachythecium rutabulum (Hedw.) Schimp.
+CallHald;Callicladium haldanianum (Grev.) H. A. Crum
+CalyAzur;Calypogeia azurea Stotler & Crotz
+CalyFiss;Calypogeia fissa (L.) Raddi
+CalyMuel;Calypogeia muelleriana (Schiffn.) Müll. Frib.
+CalySuec;Calypogeia suecica (Arnell & J. Perss.) Müll. Frib.
+CephBicu;Cephalozia bicuspidata (L.) Dumort.
+CephCate;Cephalozia catenulata (Huebener) Lindb.
+CephLeuc;Cephalozia leucantha Spruce
+CephLunu;Cephalozia lunulifolia (Dumort.) Dumort.
+DicrDenu;Dicranodontium denudatum (Brid.) E. Britton
+DicrMont;Dicranum montanum Hedw.
+DicrScop;Dicranum scoparium Hedw.
+HarpScut;Harpanthus scutatus (F. Weber & D. Mohr) Spruce
+HerzSeli;Herzogiella seligeri (Brid.) Z. Iwats.
+HypnAndo;Hypnum andoi A. J. E. Sm.
+HypnCupr;Hypnum cupressiforme Hedw. var. cupressiforme
+HypnPall;Hypnum pallescens (Hedw.) P. Beauv.
+ChilPoly;Chiloscyphus polyanthos (L.) Corda
+ChilProf;Chiloscyphus profundus (Nees) J. J. Engel & R. M. Schust.
+JungLeia;Liochlaena lanceolata Nees
+LepiRept;Lepidozia reptans (L.) Dumort.
+NoweCurv;Nowellia curvifolia (Dicks.) Mitt.
+ParaLong;Paraleucobryum longifolium (Hedw.) Loeske
+PlagPore;Plagiochila porelloides (Torr. ex Nees) Lindenb.
+PlagCurv;Plagiothecium curvifolium Schlieph. ex Limpr.
+PlagDent;Plagiothecium denticulatum (Hedw.) Schimp. var. denticulatum
+PlagLaet;Plagiothecium laetum Schimp.
+PlagNemo;Plagiothecium nemorale (Mitt.) A. Jaeger
+PlagSucc;Plagiothecium succulentum (Wilson) Lindb.
+PlatRepe;Platygyrium repens (Brid.) Schimp.
+PolyForm;Polytrichum formosum Hedw.
+RhizPunc;Rhizomnium punctatum (Hedw.) T. J. Kop.
+RiccLati;Riccardia latifrons (Lindb.) Lindb.
+RiccPalm;Riccardia palmata (Hedw.) Carruth.
+SaniUnci;Sanionia uncinata (Hedw.) Loeske
+SyzyAutu;Syzygiella autumnalis (DC.) Feldberg, Váòa, Hentschel & Heinrichs
+TetrPell;Tetraphis pellucida Hedw.
+TritExse;Tritomaria exsecta (Schmidel) Schiffn. ex Loeske
